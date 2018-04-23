@@ -10,6 +10,6 @@ class CustomPluginRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('main','CustomPlugin\Controllers\ContentController@sayHello');
+        $router->get('main','CustomPlugin\Controllers\CustomPluginContentController@sayHello');
     }
 }
