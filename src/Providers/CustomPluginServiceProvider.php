@@ -14,6 +14,6 @@ class CustomPluginServiceProvider extends ServiceProvider
  
     public function register()
     {
- 
+        $this->getApplication()->register(CustomPluginRouteServiceProvider::class);
     }
 }
