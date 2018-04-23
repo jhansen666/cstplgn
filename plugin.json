@@ -4,5 +4,5 @@
     "namespace"         :"CustomPlugin",
     "author"            :"Jan Hendrik Hansen",
     "type"              :"template",
-    "serviceProvider"   :null
+    "serviceProvider"   : "CustomPlugin\\Providers\\CustomPluginServiceProvider"
 }
